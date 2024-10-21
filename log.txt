@@ -1,2 +1,11 @@
-10/18/24 - Made repo
+10/18/24: 
+- Made repo
+- VS Code switch to terminal: ctrl + `
+- VS Code switch to editor: cmd + 1
+- vscode switch terminals: option + cmd + <arrow>
 
+10/21/24:
+- Theres this vs code thing "command pallette"
+- access by doing cmd + shift + p
+- kinda crazy flexible thing for loads of cool commands
+- you can start with @ to search for symbols (variables, functions, etc)
