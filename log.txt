@@ -9,3 +9,14 @@
 - access by doing cmd + shift + p
 - kinda crazy flexible thing for loads of cool commands
 - you can start with @ to search for symbols (variables, functions, etc)
+
+10/22/24:
+- vim hotkey to go to end of file: G
+- vim hotkey to go to top of file: gg
+- slack add reaction to latest message in channel: cmd + shift + \
+- slack add reaction to selected message: r
+- slack go to conversation: cmd + k
+- slack see all unread messages: cmd + shift + a
+- slack open/create thread for selected message: t
+- vim go forward a word: w
+- vim go back a word: b
