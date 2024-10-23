@@ -1,16 +1,16 @@
-10/18/24: 
+10.18.24 
 - Made repo
 - VS Code switch to terminal: ctrl + `
 - VS Code switch to editor: cmd + 1
 - vscode switch terminals: option + cmd + <arrow>
 
-10/21/24:
+10.21.24
 - Theres this vs code thing "command pallette"
 - access by doing cmd + shift + p
 - kinda crazy flexible thing for loads of cool commands
 - you can start with @ to search for symbols (variables, functions, etc)
 
-10/22/24:
+10.22.24
 - vim hotkey to go to end of file: G
 - vim hotkey to go to top of file: gg
 - slack add reaction to latest message in channel: cmd + shift + \
@@ -20,3 +20,16 @@
 - slack open/create thread for selected message: t
 - vim go forward a word: w
 - vim go back a word: b
+
+10.23.24
+- learned about git stash concepts/commands (up to now it's basically just been a spooky nebulous idea)
+- git stash: stashes changes. i knew this one already
+- git stash push -m "message": stashes changes with a message
+- git stash list: list all stashes
+- git stash apply: apply most recent stash without removing from list
+- git stash apply stash@{n}: apply specific stash from list
+- git stash pop: apply and remove most recent stash from list. i knew this one.
+- git stash pop stash@{n}: pop specific stash from list
+- git stash drop: remove the most recent stash from the list
+- git stash drop stash@{n}: drop a specific stash from the list
+- git stash push --keep-index: add changes to stash without removing from current branch
