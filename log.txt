@@ -32,4 +32,3 @@
 - git stash pop stash@{n}: pop specific stash from list
 - git stash drop: remove the most recent stash from the list
 - git stash drop stash@{n}: drop a specific stash from the list
-- git stash push --keep-index: add changes to stash without removing from current branch
