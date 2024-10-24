@@ -32,3 +32,7 @@
 - git stash pop stash@{n}: pop specific stash from list
 - git stash drop: remove the most recent stash from the list
 - git stash drop stash@{n}: drop a specific stash from the list
+
+10.24.24
+- search history backwards in terminal: ctrl + r
+- search history forwards in terminal: ctrl + s
