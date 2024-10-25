@@ -36,3 +36,6 @@
 10.24.24
 - search history backwards in terminal: ctrl + r
 - search history forwards in terminal: ctrl + s
+
+10.25.24
+- Added a make target called `wipe-docker` to the circuit repo that deletes all containers, images, and volumes. It's annoying having to go to docker desktop and delete these things via the ui with my mouse. 
