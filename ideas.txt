@@ -1,0 +1,6 @@
+- how do logs actually get from log(ger?).whatever() -> datadog?
+- what the hell is a logger? why is it sometimes log.xyz vs logger.xyz vs Logger.xyz?
+- make terminals bigger and smaller
+- open 1Password login via hotkey in browser
+- what is happening in docker
+- k8s???
