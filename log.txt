@@ -44,4 +44,4 @@
 - ohhhhh my god you can open the 1Password extension via `cmd + shift + x`
 
 11.05.24
-- Added hotkey for muting/unmuting mic in zoom: shift + *
+- Added hotkey for muting/unmuting mic in zoom: shift + 1
