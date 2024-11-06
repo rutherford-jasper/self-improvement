@@ -45,3 +45,17 @@
 
 11.05.24
 - Added hotkey for muting/unmuting mic in zoom: shift + 1
+
+11.06.24
+- Learned how to rewrite git commit history:
+  - do an interactive rebase: git rebase -i HEAD~<number of commits back needed>
+  - Mark the commit(s) to rewrite as `edit`
+  - amend the commit's date:
+    - GIT_COMMITTER_DATE="2024-11-06 12:00" git commit --amend --no-edit --date "2024-11-06 12:00"
+    - Where `GIT_COMMITTER_DATE is the date the commit was... committed?
+    - --date is the author date? which is the date the commit was... authored. hm.
+  - add the changes: git add <...>
+  - continue the rebase: git rebase --continue
+  - force push: git push -f
+- Yeah this one definitely happened on 11.06.24 for sure definitely
+
