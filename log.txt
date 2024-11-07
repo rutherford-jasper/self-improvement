@@ -59,3 +59,6 @@
   - force push: git push -f
 - Yeah this one definitely happened on 11.06.24 for sure definitely
 
+11.07.24
+- finally set up my new mouse
+- now I have dedicated spotify buttons on my mouse. my productivity is about to skyrocket
