@@ -62,3 +62,7 @@
 11.07.24
 - finally set up my new mouse
 - now I have dedicated spotify buttons on my mouse. my productivity is about to skyrocket
+
+11.08.24
+- split vs code terminal: cmd+\
+- resize vs code terminal: cmd + control + arrow 
