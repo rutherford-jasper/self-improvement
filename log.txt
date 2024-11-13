@@ -66,3 +66,10 @@
 11.08.24
 - split vs code terminal: cmd+\
 - resize vs code terminal: cmd + control + arrow 
+
+11.13.24
+- bunch of vs code setting changes...
+    "workbench.tree.indent": 20, 					- indents the file tree in the explorer
+    "workbench.editor.labelFormat": "short", 				- not sure tbh travis said it was good 	
+    "window.title": "${rootName}${separator}${activeFolderMedium}", 	- shows the file directory up top
+    "workbench.editor.wrapTabs": true, 					- wraps the tabs at the top rather than scrolling forever
