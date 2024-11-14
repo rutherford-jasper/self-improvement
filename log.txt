@@ -73,3 +73,12 @@
     "workbench.editor.labelFormat": "short", 				- not sure tbh travis said it was good 	
     "window.title": "${rootName}${separator}${activeFolderMedium}", 	- shows the file directory up top
     "workbench.editor.wrapTabs": true, 					- wraps the tabs at the top rather than scrolling forever
+
+11.14.24
+- Looked into what `span` is
+- Seems to be used for tracking what things happen in a request
+- A "trace" is composed of many "span"s, each span is a chunk of a thing
+- I remember Julio showed me (like.... 18 months ago...) that we could see in datadog exactly what functions happened for each request and how we could see exactly where errors happened. I believe this is what enables that. 
+- Seems to be disabled - I seem to remember Yasar mentioned at some point that tracing was intentionally turned off?
+- Not entirely clear to me what the situation is... should we be breadcrumbing spans all over? is the idea we can turn it on if we need it? Unclear. 
+- option + 2 writes the ™ symbol
