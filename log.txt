@@ -82,3 +82,12 @@
 - Seems to be disabled - I seem to remember Yasar mentioned at some point that tracing was intentionally turned off?
 - Not entirely clear to me what the situation is... should we be breadcrumbing spans all over? is the idea we can turn it on if we need it? Unclear. 
 - option + 2 writes the ™ symbol
+
+11.20.24
+aws console things...
+- finally figured out how to add services to favorites (the quickbar): theres a star to click in the search bar next to each search result
+- You can do option + s to get to the searchbar
+- I also added the favorites widget to my main aws page... so i can click the hotbar or the widget. Not sure which will be more useful.
+- You can run a make target from another directory by doing this:
+`make -f ./folder/Makefile target_name`
+
