@@ -90,4 +90,5 @@ aws console things...
 - I also added the favorites widget to my main aws page... so i can click the hotbar or the widget. Not sure which will be more useful.
 - You can run a make target from another directory by doing this:
 `make -f ./folder/Makefile target_name`
+- updated makefile to be happy when ran from another directory
 
