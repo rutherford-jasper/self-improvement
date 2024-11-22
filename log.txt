@@ -92,3 +92,5 @@ aws console things...
 `make -f ./folder/Makefile target_name`
 - updated makefile to be happy when ran from another directory
 
+11.22.24
+- finally got my monitor mounted higher. its a bit scuffed. but it should mean my wrists hurt less yay
