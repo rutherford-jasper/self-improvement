@@ -94,3 +94,10 @@ aws console things...
 
 11.22.24
 - finally got my monitor mounted higher. its a bit scuffed. but it should mean my wrists hurt less yay
+
+12.04.24
+- looked into accessing chrome bookmarks via keyboard:
+	- You can do cmd+l to access the address bar, but you can't tab backwards to get to the bookmarks?
+	- cmd+option+b opens a bookmarks page in a new tab? which can be navigated with tab and whatnot. but not great.
+- cmd+i opens a copilot chat inline in vscode
+
