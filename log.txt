@@ -101,3 +101,7 @@ aws console things...
 	- cmd+option+b opens a bookmarks page in a new tab? which can be navigated with tab and whatnot. but not great.
 - cmd+i opens a copilot chat inline in vscode
 
+12.16.24
+- Started a brilliant course for math
+- got the app on my phone too
+- seems overly basic but i'm sure it ramps up and i havent dont any calculus or anything in like 2 years so i'm very dusty

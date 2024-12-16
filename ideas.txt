@@ -3,4 +3,5 @@
 - what is happening in docker
 - k8s???
 - new keyboard :/
+- how do i run unit tests in debug??
 
