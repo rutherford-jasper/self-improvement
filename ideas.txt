@@ -1,7 +1,9 @@
-- how do logs actually get from log(ger?).whatever() -> datadog?
-- what the hell is a logger? why is it sometimes log.xyz vs logger.xyz vs Logger.xyz?
 - what is happening in docker
 - k8s???
 - new keyboard :/
 - how do i run unit tests in debug??
-
+- general unit test questions
+- how does the linter work? where is it configured?
+- networking is scary - make it not
+- navigating routes.go sucks. make it not? 
+- the vscode dev container
