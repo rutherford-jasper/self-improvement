@@ -134,3 +134,9 @@ aws console things...
 	- if you put up more collateral you are more likely to be chosen
 - Watched some videos about p2p - my biggest question was how do nodes find an initial connection to the network?
 	- and the answer is that there's seed nodes. go figure.
+
+01.30.25
+- learned what P95 Latency is
+	- It's the latency of the 95th percentile of all queries. used to get an idea for what the slowest 5% of queries are like. 
+- learned what a WAL and checkpoints are
+	- WAL is like a list of all the changes that are due to happen to the database. disk writes are slow, memory is fast. and you periodically move the wal into the disk, and that is a checkpoint. tradeoffs and whatnot. 

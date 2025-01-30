@@ -7,3 +7,4 @@
 - networking is scary - make it not
 - navigating routes.go sucks. make it not? 
 - the vscode dev container
+- chmod?
