@@ -138,5 +138,9 @@ aws console things...
 01.30.25
 - learned what P95 Latency is
 	- It's the latency of the 95th percentile of all queries. used to get an idea for what the slowest 5% of queries are like. 
-- learned what a WAL and checkpoints are
-	- WAL is like a list of all the changes that are due to happen to the database. disk writes are slow, memory is fast. and you periodically move the wal into the disk, and that is a checkpoint. tradeoffs and whatnot. 
+- learned what a WAL, dirty pages, and checkpoints are
+	- dirty pages: an in memory representation of the new stuff that has happened to the database
+	- WAL: a sequential list of changes to the database. it exists so that if the in memory stuff gets oopsied then the in memory can be rebuilt from the WAL
+	- checkpoints: rules around when to combine the dirty pages (in memory) to the database (disk). there's a time component (ie: every 5 minutes) and a max WAL component (ie: once the WAL hits 1GB flush everything to disk and reset the timer)
+	- and then when a checkpoint triggers, the WAL is reset, and the in memory shenanigans is minimized/wiped/reset.
+
